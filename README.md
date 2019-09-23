@@ -14,7 +14,7 @@ Para el desarrollo de dicha prueba se hizo implementación de Bootstrap 3, CSS3,
     (ya que chrome u otros navegadores bloquearan peticiones a archivos independientes y genera un error 
     de CORS "Content Security Police"); mi recomendación es visualizarlo desde Visual Studio Code con la 
     extensión Live Server:
-<a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"> Live Server Extension </a>
+<a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank"> Live Server Extension </a>
 
 ~~~ 
 Autor: Juan Manuel Celis Restrepo
