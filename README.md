@@ -11,7 +11,7 @@ Para el desarrollo de dicha prueba se hizo implementación de Bootstrap 3, CSS3,
 7.  **Views:** Se encuentra la página principal la cual, será la que visualiza por primera ves el usuario final; en está página _.html_ se hizo uso de de grids para el diseño de los contenidos y en el código _.html_ se encuentra especifico en comentarios de cada sección.
 ####    
     NOTA: Para la visualización y el correcto funcionamiento del proyecto se debe montar en un Localhost (ya que chrome u otros navegadores bloquearan peticiones a archivos independientes y genera un error de CORS "Content Security Police"); mi recomendación es visualizarlo desde Visual Studio Code con la extensión Live Server:
-    https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+<a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"> Live Server Extension </a>
 
 ~~~ 
 Autor: Juan Manuel Celis Restrepo
