@@ -1,0 +1,314 @@
+/* Referencia a Fuentes */
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Black.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../fonts/Lato/Lato-Light.ttf') format('opentype');
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+body{
+    background: #eeeeee;
+}
+/* Estilos del Menú */
+.navbar-brand img{
+    position: relative;
+    left: 22%;
+    width: 80%;
+}
+[data-content="menu"]{
+    position: relative;
+    margin-top: .5%;
+    left: 17% !important;
+}
+.navbar{
+    min-height: 88px;
+    border-radius: 0%;
+    background: #000000;
+    z-index: 1000;
+    border: 0;
+}
+[data-content="menu"] > li{
+    width: 16%;
+    text-align: center !important;
+}
+[data-child="relation-parent"]{
+    width: 15% !important;
+}
+li[data-child="relation-parent-search"]{
+    float: right;
+    right: -9%;
+    margin-top: -4%;
+    width: 40%;
+}
+li a{
+    color: #fff !important;
+}
+.navbar-form{
+    position: relative;
+    left: 13%;
+    margin-top: 1.5%;
+}
+.navbar-nav{
+    position: relative;
+    left: 7%;
+    margin-top: 1%;
+}
+[data-content="menu-right"]{
+    left: -6%;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+,.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color:transparent;
+    border-bottom: 1px solid #e7e7e7;
+}
+form.navbar-form input{
+    background: transparent;
+    border-radius: 31px;
+    width: 108%;
+    border-color: #fff !important;
+    color: #fff;
+}
+.glyphicon{
+    color: #fff !important;
+}
+[data-content="relation-parent-right"]{
+    left: 60%;
+    margin-top: -4.5%;
+}
+[data-content="relation-parent-language"]{
+    left: 50%;
+    margin-top: -4.5%;
+}
+/* Slider Section */
+.navbar-wrapper {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 51px;
+}
+.navbar-wrapper > .container {
+    padding: 0;
+}
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.jssorb031 {position:absolute;}
+.jssorb031 .i {position:absolute;cursor:pointer;}
+.jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+.jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+.jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+.jssorb031 .i.idn {opacity:.3;}
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+@media all and (max-width: 768px ){
+    .navbar-wrapper {
+        position: relative;
+        top: 0px;
+    }
+}
+/* Estilos Container */
+.container{
+    text-align: center;
+    background: #eeeeee;
+    width: 100%;
+    padding: 0;
+    margin-top: -0%;
+}
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%; 
+    display: grid;
+    /* Define Auto Row size */
+    grid-auto-rows: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 8em;
+}
+.content-main {
+    color: #fff;
+}
+.content-main:nth-child(odd) {
+    background-color: #fff;
+}
+.content-main:nth-child(even) {
+    background-color: #fff;
+}
+.content-main img{
+    width: 100%;
+}
+.content-main h1,h2,h3,h4,h5,h6,article{
+    color: #3d3d3d;
+}
+.content-main article{
+    position: relative;
+    text-align: left;
+    width: 81%;
+    left: 9%;
+    margin-bottom: 29px;
+    font-family: 'Lato-Light';
+}
+.content-main hr{
+    border: 2px solid #ffe95b;
+    width: 68%;
+}
+.content-main h4{
+    margin-top: 23px;
+}
+.content-main button{
+    position: relative;
+    background: #cdcdcd;
+    outline: none;
+    padding: 2.5%;
+    margin-top: -18px;
+    width: 81%;
+    outline: none;
+    margin-bottom: 16px;
+}
+[data-content="general-center"] h4{
+    position: relative;
+    width: 73%;
+    left: 14%;
+}
+[data-content="general-center"] hr{
+    width:55%;
+}
+[data-content="general-right"] hr{
+    width:56%;
+}
+ul.dropdown-menu li a{
+    color: #3d3d33 !important;
+}
+.content-main button.btn-laterals{
+    position: relative;
+    bottom: 0%;
+    margin-top: 5%;
+}
+.content-main button.btn-lateral-right{
+    margin-top: 8% !important;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: transparent;   
+}
+.init-slider{
+    min-height: 50px;
+}
+#slider1_container{
+    visibility: hidden; 
+    position: relative; 
+    margin: 0 auto;
+    top: -20px; 
+    left: 0px; 
+    width: 1300px; 
+    height: 500px; 
+    overflow: hidden;
+}
+.init-slide{
+    min-height: 50px;
+}
+@media only screen and (max-width: 375px) {
+    .navbar-brand img {
+        left: 0%;
+        width: 66%;
+        margin-top: -16%;
+    }
+    #slider1_container{
+        top: 100px;
+    }
+    .container{
+        margin-top: 0%;
+    }
+    .init-slide{
+        margin-top: 99px;
+    }
+    main{
+        grid-auto-rows: 30%;
+        margin: 4px auto;
+    }
+    .navbar-form{
+        left: 1%;
+        width: 95%;
+        overflow-x: hidden;
+    }
+    [data-content="menu-right"] {
+        left: 7%;
+    }
+    .navbar-collapse{
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .navbar-brand img {
+        left: 4%;
+        width: 68%;
+    }
+    #slider1_container{
+        top: 100px;
+    }
+    .container{
+        margin-top: 0%;
+    }
+    .init-slide{
+        margin-top: 99px;
+    }
+    main{
+        grid-auto-rows: 30%;
+        margin: 4px auto;
+    }
+    .navbar-form{
+        left: 1%;
+        width: 95%;
+        overflow-x: hidden;
+    }
+    [data-content="menu-right"] {
+        left: 7%;
+    }
+    .navbar-collapse{
+        margin-top: 20px;
+        overflow-x: hidden;
+    }
+}
+@media only screen and (width: 768px) {
+    .navbar-brand img {
+        left: 4%;
+        width: 60%;
+    }
+    .navbar-nav{
+        left: 29%;
+        margin-top: -6%;
+        font-size: 0.8em;
+    }
+    .navbar-form{
+        left: 49%; 
+    }
+    [data-content="menu-right"]{
+        position: absolute;
+        left: 85% !important;
+        margin-top: 7% !important;
+    }
+    main{
+        grid-auto-rows: 47%; 
+    }
+}
