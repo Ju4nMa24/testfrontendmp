@@ -50,16 +50,28 @@ li a{
 }
 .navbar-form{
     position: relative;
-    left: 13%;
     margin-top: 1.5%;
+    width: auto;
+    margin-right: -1%;
+    left: 7%;
 }
 .navbar-nav{
     position: relative;
     left: 7%;
     margin-top: 1%;
 }
+.col-sm-10-form-input{
+    left:5%;
+    padding-left: 0;
+}
+.col-sm-10-form-input input[type="search"]{
+    width: auto;
+}
 [data-content="menu-right"]{
-    left: -6%;
+    left: -1%;
+}
+.glyphicon {
+    float: right;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
 ,.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
@@ -228,6 +240,11 @@ ul.dropdown-menu li a{
 .init-slide{
     min-height: 50px;
 }
+
+.col-sm-10-form-input {
+    float: left;
+    padding-right: 0;
+}
 @media only screen and (max-width: 375px) {
     .navbar-brand img {
         left: 0%;
@@ -258,6 +275,7 @@ ul.dropdown-menu li a{
     .navbar-collapse{
         overflow-x: hidden;
     }
+
 }
 @media only screen and (max-width: 414px) {
     .navbar-brand img {
@@ -310,5 +328,15 @@ ul.dropdown-menu li a{
     }
     main{
         grid-auto-rows: 47%; 
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .glyphicon{
+        right: -21%;
+    }
+}
+@media only screen and (width: 1024px) {
+    main{
+        grid-auto-rows: 48%;
     }
 }
